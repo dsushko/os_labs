@@ -1,15 +1,16 @@
 #pragma once
 
+#include <queue>
 
 template <class T>
-class Channel {
+class BufferedChannel {
 private:
 	bool is_locked;
 	bool is_closed;
 	std::queue<T> buffer;
 	int buffer_size;
 public:
-	Channel(int buffer_size);
+	BufferedChannel(int buffer_size);
 
 	void send(T value);
 
