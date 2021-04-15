@@ -91,7 +91,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>C:\Users\ъуъ\source\repos\lab1;C:\Users\ъуъ\source\repos\Number;C:\Users\ъуъ\source\repos\Vector;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\ъуъ\source\repos\lab1;C:\Users\ъуъ\source\repos\Number;C:\Users\ъуъ\source\repos\os_labs\lab1\Vector;C:\Users\ъуъ\source\repos\os_labs\lab1;C:\Users\ъуъ\source\repos\os_labs\lab1\Number;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -111,7 +111,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>C:\Users\ъуъ\source\repos\lab1;C:\Users\ъуъ\source\repos\Number;C:\Users\ъуъ\source\repos\Vector;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\ъуъ\source\repos\lab1;C:\Users\ъуъ\source\repos\Number;C:\Users\ъуъ\source\repos\os_labs\lab1\Vector;C:\Users\ъуъ\source\repos\os_labs\lab1;C:\Users\ъуъ\source\repos\os_labs\lab1\Number;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -133,7 +133,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>C:\Users\ъуъ\source\repos\lab1;C:\Users\ъуъ\source\repos\Number;C:\Users\ъуъ\source\repos\Vector;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\ъуъ\source\repos\lab1;C:\Users\ъуъ\source\repos\Number;C:\Users\ъуъ\source\repos\os_labs\lab1\Vector;C:\Users\ъуъ\source\repos\os_labs\lab1;C:\Users\ъуъ\source\repos\os_labs\lab1\Number;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -157,7 +157,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>C:\Users\ъуъ\source\repos\lab1;C:\Users\ъуъ\source\repos\Number;C:\Users\ъуъ\source\repos\Vector;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\ъуъ\source\repos\lab1;C:\Users\ъуъ\source\repos\Number;C:\Users\ъуъ\source\repos\os_labs\lab1\Vector;C:\Users\ъуъ\source\repos\os_labs\lab1;C:\Users\ъуъ\source\repos\os_labs\lab1\Number;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -174,10 +174,10 @@
     <ClCompile Include="lab1.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Number\Number.vcxproj">
+    <ProjectReference Include="Number\Number.vcxproj">
       <Project>{87507fd1-392c-4244-9cf8-48e60d71c217}</Project>
     </ProjectReference>
-    <ProjectReference Include="..\Vector\Vector.vcxproj">
+    <ProjectReference Include="Vector\Vector.vcxproj">
       <Project>{3d28b39e-af01-4f22-b790-95fdc723f3b2}</Project>
     </ProjectReference>
   </ItemGroup>

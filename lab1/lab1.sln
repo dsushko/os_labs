@@ -4,13 +4,14 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 16.0.29215.179
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "lab1", "lab1.vcxproj", "{09C26135-40B3-47BC-BA1B-16C956EDA446}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Number", "..\Number\Number.vcxproj", "{87507FD1-392C-4244-9CF8-48E60D71C217}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Vector", "..\Vector\Vector.vcxproj", "{3D28B39E-AF01-4F22-B790-95FDC723F3B2}"
 	ProjectSection(ProjectDependencies) = postProject
+		{3D28B39E-AF01-4F22-B790-95FDC723F3B2} = {3D28B39E-AF01-4F22-B790-95FDC723F3B2}
 		{87507FD1-392C-4244-9CF8-48E60D71C217} = {87507FD1-392C-4244-9CF8-48E60D71C217}
 	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Number", "Number\Number.vcxproj", "{87507FD1-392C-4244-9CF8-48E60D71C217}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Vector", "Vector\Vector.vcxproj", "{3D28B39E-AF01-4F22-B790-95FDC723F3B2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
