@@ -1,16 +1,17 @@
 #pragma once
-
+#include <mutex>
 #include <queue>
 
 template <class T>
-class BufferedChannel {
+class Channel {
 private:
-	bool is_locked;
+	std::mutex recv_locker;
+	std::mutex send_locker;
 	bool is_closed;
 	std::queue<T> buffer;
 	int buffer_size;
 public:
-	BufferedChannel(int buffer_size);
+	Channel(int buffer_size);
 
 	void send(T value);
 
