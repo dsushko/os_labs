@@ -1,0 +1,12 @@
+#!/bin/bash
+echo make build directory
+mkdir build;
+cd build;
+
+gcc -c ../Number/Number.cpp;
+ar rvs Number.a Number.o
+
+gcc -c ../Vector/Vector.cpp -I../Number/include -LNumber.a -shared -o Vector.so
+
+g++ -o main ../main.cpp -I ../Vector/include -I ../Number/include Vector.so Number.a;
+./main
