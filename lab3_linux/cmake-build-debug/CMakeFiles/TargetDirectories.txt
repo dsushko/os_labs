@@ -1,0 +1,3 @@
+/home/dmitry/os_labs/lab3_linux/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/dmitry/os_labs/lab3_linux/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/dmitry/os_labs/lab3_linux/cmake-build-debug/CMakeFiles/lab3_linux.dir
