@@ -71,7 +71,7 @@ int main()
 	CloseHandle(pi1.hProcess);
 	CloseHandle(pi.hThread);
 
-	
+	putenv("PROC_TO_KILL=");
 	std::cin.get();
 	return 0;
 }
