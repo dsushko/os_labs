@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/lab4_linux.dir/main.cpp.o CMakeFiles/lab4_linux.dir/myprocess.cpp.o CMakeFiles/lab4_linux.dir/killer.cpp.o -o lab4_linux 

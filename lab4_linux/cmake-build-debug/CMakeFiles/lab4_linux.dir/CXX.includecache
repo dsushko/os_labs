@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/dmitry/os_labs/lab4_linux/killer.cpp
+string
+-
+signal.h
+-
+dirent.h
+-
+sstream
+-
+unistd.h
+-
+iostream
+-
+cstring
+-
+
