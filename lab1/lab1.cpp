@@ -13,6 +13,13 @@ int main()
 	Vector v(Number(3), Number(4));
 
 	std::cout << (n / Number(2)).get_num() << " " << v.polar_phi().get_num() << "\n";
+
+	std::cout << testvar << "\n";
+	setval(1);
+	std::cout << testvar << "\n";
+
+
 	std::cin.get();
+	std::cout << "\n";
 	return 0;
 }
