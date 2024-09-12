@@ -1,0 +1,3 @@
+#!/bin/bash
+g++ main.cpp -D_REENTERANT -Iusr/include/nptl -L/usr/lib/nptl -lpthread -o main;
+./main
